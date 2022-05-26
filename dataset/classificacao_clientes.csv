@@ -1,0 +1,499 @@
+;cod_cliente;genero;idade;peso;colesterol;id_estado;estado;sigla_estado;pais;cluster;nome_cluster
+0;1;Masculino;17;102.0;111.0;23;Roraima;RR;Brasil;2;Baixo Risco
+1;2;Masculino;28;115.0;135.0;7;Distrito Federal;DF;Brasil;2;Baixo Risco
+2;3;Masculino;62;115.0;136.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+3;5;Masculino;44;130.0;158.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+4;6;Masculino;17;198.0;227.0;8;Espírito Santo;ES;Brasil;0;Alto Risco
+5;7;Masculino;30;114.0;131.0;26;Sergipe;SE;Brasil;2;Baixo Risco
+6;8;Feminino;30;145.0;176.0;25;São Paulo;SP;Brasil;3;Risco Moderado Alto
+7;9;Feminino;34;191.0;223.0;16;Paraná;PR;Brasil;0;Alto Risco
+8;10;Masculino;55;186.0;221.0;6;Ceará;CE;Brasil;0;Alto Risco
+9;11;Feminino;50;104.0;116.0;3;Amapá;AP;Brasil;2;Baixo Risco
+10;12;Masculino;62;188.0;222.0;6;Ceará;CE;Brasil;0;Alto Risco
+11;13;Feminino;52;96.0;102.0;17;Pernambuco;PE;Brasil;2;Baixo Risco
+12;14;Feminino;34;156.0;192.0;7;Distrito Federal;DF;Brasil;3;Risco Moderado Alto
+13;15;Feminino;69;125.0;152.0;25;São Paulo;SP;Brasil;1;Risco Moderado Baixo
+14;16;Feminino;65;178.0;213.0;14;Pará;PA;Brasil;0;Alto Risco
+15;17;Feminino;61;109.0;125.0;3;Amapá;AP;Brasil;2;Baixo Risco
+16;18;Masculino;65;168.0;204.0;27;Tocantins;TO;Brasil;0;Alto Risco
+17;19;Feminino;48;152.0;189.0;17;Pernambuco;PE;Brasil;3;Risco Moderado Alto
+18;20;Feminino;60;133.0;163.0;5;Bahia;BA;Brasil;1;Risco Moderado Baixo
+19;21;Feminino;70;153.0;189.0;5;Bahia;BA;Brasil;3;Risco Moderado Alto
+20;22;Feminino;28;107.0;122.0;15;Paraíba;PB;Brasil;2;Baixo Risco
+21;23;Masculino;63;199.0;228.0;2;Alagoas;AL;Brasil;0;Alto Risco
+22;24;Feminino;34;140.0;168.0;11;Mato Grosso;MT;Brasil;1;Risco Moderado Baixo
+23;25;Masculino;53;95.0;102.0;3;Amapá;AP;Brasil;2;Baixo Risco
+24;26;Feminino;42;183.0;218.0;10;Maranhão;MA;Brasil;0;Alto Risco
+25;27;Feminino;35;108.0;123.0;21;Rio Grande do Sul;RS;Brasil;2;Baixo Risco
+26;28;Feminino;55;190.0;222.0;20;Rio Grande do Norte;RN;Brasil;0;Alto Risco
+27;29;Masculino;55;174.0;208.0;14;Pará;PA;Brasil;0;Alto Risco
+28;30;Masculino;62;149.0;183.0;13;Minas Gerais;MG;Brasil;3;Risco Moderado Alto
+29;31;Masculino;24;169.0;204.0;8;Espírito Santo;ES;Brasil;0;Alto Risco
+30;32;Masculino;29;138.0;167.0;3;Amapá;AP;Brasil;1;Risco Moderado Baixo
+31;33;Masculino;56;151.0;188.0;22;Rondônia;RO;Brasil;3;Risco Moderado Alto
+32;35;Feminino;60;178.0;213.0;6;Ceará;CE;Brasil;0;Alto Risco
+33;36;Masculino;67;106.0;122.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+34;37;Masculino;16;195.0;225.0;17;Pernambuco;PE;Brasil;0;Alto Risco
+35;38;Masculino;42;96.0;105.0;1;Acre;AC;Brasil;2;Baixo Risco
+36;39;Feminino;33;129.0;155.0;10;Maranhão;MA;Brasil;1;Risco Moderado Baixo
+37;40;Masculino;60;166.0;203.0;17;Pernambuco;PE;Brasil;3;Risco Moderado Alto
+38;41;Masculino;60;197.0;225.0;14;Pará;PA;Brasil;0;Alto Risco
+39;42;Masculino;54;148.0;177.0;20;Rio Grande do Norte;RN;Brasil;3;Risco Moderado Alto
+40;43;Masculino;55;117.0;139.0;4;Amazonas;AM;Brasil;1;Risco Moderado Baixo
+41;44;Feminino;36;193.0;224.0;27;Tocantins;TO;Brasil;0;Alto Risco
+42;46;Feminino;65;130.0;158.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+43;47;Masculino;68;183.0;218.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+44;48;Feminino;38;134.0;164.0;9;Goiás;GO;Brasil;1;Risco Moderado Baixo
+45;49;Feminino;38;128.0;154.0;7;Distrito Federal;DF;Brasil;1;Risco Moderado Baixo
+46;50;Feminino;70;105.0;118.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+47;51;Feminino;23;115.0;138.0;26;Sergipe;SE;Brasil;2;Baixo Risco
+48;52;Masculino;34;166.0;199.0;22;Rondônia;RO;Brasil;3;Risco Moderado Alto
+49;53;Masculino;30;183.0;219.0;15;Paraíba;PB;Brasil;0;Alto Risco
+50;54;Masculino;48;149.0;183.0;23;Roraima;RR;Brasil;3;Risco Moderado Alto
+51;55;Feminino;36;110.0;128.0;9;Goiás;GO;Brasil;2;Baixo Risco
+52;56;Feminino;25;164.0;197.0;4;Amazonas;AM;Brasil;3;Risco Moderado Alto
+53;57;Feminino;65;157.0;196.0;7;Distrito Federal;DF;Brasil;3;Risco Moderado Alto
+54;58;Feminino;39;170.0;208.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+55;59;Masculino;58;124.0;152.0;8;Espírito Santo;ES;Brasil;1;Risco Moderado Baixo
+56;60;Masculino;38;145.0;175.0;22;Rondônia;RO;Brasil;3;Risco Moderado Alto
+57;61;Feminino;70;113.0;129.0;23;Roraima;RR;Brasil;2;Baixo Risco
+58;62;Feminino;47;150.0;185.0;8;Espírito Santo;ES;Brasil;3;Risco Moderado Alto
+59;63;Masculino;57;100.0;107.0;16;Paraná;PR;Brasil;2;Baixo Risco
+60;65;Feminino;30;139.0;167.0;6;Ceará;CE;Brasil;1;Risco Moderado Baixo
+61;66;Masculino;25;150.0;185.0;21;Rio Grande do Sul;RS;Brasil;3;Risco Moderado Alto
+62;68;Masculino;48;157.0;194.0;19;Rio de Janeiro;RJ;Brasil;3;Risco Moderado Alto
+63;69;Feminino;35;187.0;221.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+64;70;Feminino;49;137.0;166.0;11;Mato Grosso;MT;Brasil;1;Risco Moderado Baixo
+65;71;Masculino;28;121.0;143.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+66;72;Feminino;42;132.0;163.0;9;Goiás;GO;Brasil;1;Risco Moderado Baixo
+67;73;Masculino;50;130.0;158.0;2;Alagoas;AL;Brasil;1;Risco Moderado Baixo
+68;74;Feminino;24;156.0;191.0;19;Rio de Janeiro;RJ;Brasil;3;Risco Moderado Alto
+69;75;Feminino;31;180.0;216.0;10;Maranhão;MA;Brasil;0;Alto Risco
+70;76;Masculino;43;100.0;106.0;15;Paraíba;PB;Brasil;2;Baixo Risco
+71;77;Feminino;39;122.0;146.0;17;Pernambuco;PE;Brasil;1;Risco Moderado Baixo
+72;78;Feminino;34;185.0;220.0;13;Minas Gerais;MG;Brasil;0;Alto Risco
+73;79;Feminino;48;113.0;131.0;11;Mato Grosso;MT;Brasil;2;Baixo Risco
+74;80;Feminino;61;123.0;147.0;27;Tocantins;TO;Brasil;1;Risco Moderado Baixo
+75;81;Feminino;18;119.0;141.0;4;Amazonas;AM;Brasil;1;Risco Moderado Baixo
+76;82;Masculino;58;113.0;130.0;7;Distrito Federal;DF;Brasil;2;Baixo Risco
+77;83;Masculino;46;168.0;204.0;14;Pará;PA;Brasil;0;Alto Risco
+78;84;Masculino;18;126.0;152.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+79;85;Masculino;52;102.0;111.0;22;Rondônia;RO;Brasil;2;Baixo Risco
+80;86;Masculino;66;116.0;139.0;22;Rondônia;RO;Brasil;1;Risco Moderado Baixo
+81;87;Masculino;43;144.0;172.0;5;Bahia;BA;Brasil;3;Risco Moderado Alto
+82;88;Feminino;25;140.0;168.0;12;Mato Grosso do Sul;MS;Brasil;1;Risco Moderado Baixo
+83;89;Feminino;35;124.0;148.0;27;Tocantins;TO;Brasil;1;Risco Moderado Baixo
+84;90;Feminino;29;108.0;123.0;19;Rio de Janeiro;RJ;Brasil;2;Baixo Risco
+85;91;Feminino;47;154.0;189.0;22;Rondônia;RO;Brasil;3;Risco Moderado Alto
+86;92;Feminino;30;185.0;220.0;5;Bahia;BA;Brasil;0;Alto Risco
+87;93;Masculino;19;106.0;120.0;22;Rondônia;RO;Brasil;2;Baixo Risco
+88;94;Masculino;67;97.0;106.0;13;Minas Gerais;MG;Brasil;2;Baixo Risco
+89;95;Feminino;22;96.0;105.0;8;Espírito Santo;ES;Brasil;2;Baixo Risco
+90;96;Masculino;56;129.0;157.0;14;Pará;PA;Brasil;1;Risco Moderado Baixo
+91;97;Masculino;28;124.0;149.0;10;Maranhão;MA;Brasil;1;Risco Moderado Baixo
+92;98;Feminino;25;149.0;185.0;1;Acre;AC;Brasil;3;Risco Moderado Alto
+93;99;Feminino;47;97.0;106.0;12;Mato Grosso do Sul;MS;Brasil;2;Baixo Risco
+94;100;Masculino;20;102.0;115.0;6;Ceará;CE;Brasil;2;Baixo Risco
+95;101;Masculino;49;146.0;177.0;21;Rio Grande do Sul;RS;Brasil;3;Risco Moderado Alto
+96;104;Feminino;38;118.0;140.0;1;Acre;AC;Brasil;1;Risco Moderado Baixo
+97;106;Masculino;56;179.0;216.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+98;107;Feminino;50;113.0;130.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+99;108;Feminino;65;142.0;169.0;17;Pernambuco;PE;Brasil;3;Risco Moderado Alto
+100;109;Masculino;48;101.0;110.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+101;110;Masculino;63;174.0;209.0;2;Alagoas;AL;Brasil;0;Alto Risco
+102;111;Masculino;23;131.0;162.0;22;Rondônia;RO;Brasil;1;Risco Moderado Baixo
+103;112;Masculino;66;179.0;214.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+104;113;Masculino;39;122.0;145.0;1;Acre;AC;Brasil;1;Risco Moderado Baixo
+105;114;Masculino;44;105.0;116.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+106;115;Feminino;21;176.0;209.0;6;Ceará;CE;Brasil;0;Alto Risco
+107;116;Masculino;22;103.0;116.0;10;Maranhão;MA;Brasil;2;Baixo Risco
+108;117;Masculino;44;120.0;139.0;5;Bahia;BA;Brasil;1;Risco Moderado Baixo
+109;119;Feminino;32;143.0;168.0;9;Goiás;GO;Brasil;3;Risco Moderado Alto
+110;120;Masculino;32;134.0;158.0;19;Rio de Janeiro;RJ;Brasil;1;Risco Moderado Baixo
+111;121;Masculino;60;203.0;232.0;4;Amazonas;AM;Brasil;0;Alto Risco
+112;122;Masculino;36;116.0;136.0;10;Maranhão;MA;Brasil;2;Baixo Risco
+113;123;Feminino;47;150.0;180.0;16;Paraná;PR;Brasil;3;Risco Moderado Alto
+114;124;Feminino;28;192.0;228.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+115;125;Masculino;50;187.0;222.0;10;Maranhão;MA;Brasil;0;Alto Risco
+116;126;Feminino;30;107.0;117.0;12;Mato Grosso do Sul;MS;Brasil;2;Baixo Risco
+117;127;Masculino;46;192.0;224.0;2;Alagoas;AL;Brasil;0;Alto Risco
+118;128;Feminino;21;97.0;104.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+119;130;Feminino;37;128.0;156.0;3;Amapá;AP;Brasil;1;Risco Moderado Baixo
+120;131;Feminino;21;183.0;213.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+121;132;Feminino;26;112.0;133.0;9;Goiás;GO;Brasil;2;Baixo Risco
+122;133;Masculino;69;173.0;208.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+123;134;Feminino;52;156.0;195.0;27;Tocantins;TO;Brasil;3;Risco Moderado Alto
+124;135;Feminino;53;137.0;163.0;16;Paraná;PR;Brasil;1;Risco Moderado Baixo
+125;136;Feminino;59;156.0;195.0;25;São Paulo;SP;Brasil;3;Risco Moderado Alto
+126;137;Feminino;24;112.0;124.0;19;Rio de Janeiro;RJ;Brasil;2;Baixo Risco
+127;138;Masculino;39;203.0;231.0;6;Ceará;CE;Brasil;0;Alto Risco
+128;139;Feminino;35;141.0;172.0;6;Ceará;CE;Brasil;3;Risco Moderado Alto
+129;140;Masculino;57;97.0;104.0;12;Mato Grosso do Sul;MS;Brasil;2;Baixo Risco
+130;141;Feminino;48;186.0;221.0;14;Pará;PA;Brasil;0;Alto Risco
+131;142;Feminino;62;113.0;128.0;22;Rondônia;RO;Brasil;2;Baixo Risco
+132;143;Feminino;48;195.0;222.0;8;Espírito Santo;ES;Brasil;0;Alto Risco
+133;144;Masculino;53;175.0;214.0;2;Alagoas;AL;Brasil;0;Alto Risco
+134;145;Masculino;63;154.0;184.0;17;Pernambuco;PE;Brasil;3;Risco Moderado Alto
+135;148;Masculino;28;152.0;195.0;13;Minas Gerais;MG;Brasil;3;Risco Moderado Alto
+136;149;Masculino;45;114.0;132.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+137;150;Feminino;39;181.0;214.0;25;São Paulo;SP;Brasil;0;Alto Risco
+138;151;Masculino;52;111.0;123.0;2;Alagoas;AL;Brasil;2;Baixo Risco
+139;152;Masculino;55;200.0;233.0;27;Tocantins;TO;Brasil;0;Alto Risco
+140;153;Masculino;29;100.0;107.0;26;Sergipe;SE;Brasil;2;Baixo Risco
+141;154;Feminino;26;134.0;162.0;23;Roraima;RR;Brasil;1;Risco Moderado Baixo
+142;155;Masculino;16;167.0;204.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+143;156;Masculino;41;198.0;227.0;17;Pernambuco;PE;Brasil;0;Alto Risco
+144;158;Masculino;55;121.0;142.0;3;Amapá;AP;Brasil;1;Risco Moderado Baixo
+145;159;Feminino;58;196.0;225.0;19;Rio de Janeiro;RJ;Brasil;0;Alto Risco
+146;160;Masculino;23;171.0;212.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+147;162;Masculino;24;186.0;220.0;4;Amazonas;AM;Brasil;0;Alto Risco
+148;164;Feminino;51;133.0;155.0;23;Roraima;RR;Brasil;1;Risco Moderado Baixo
+149;166;Feminino;29;120.0;144.0;15;Paraíba;PB;Brasil;1;Risco Moderado Baixo
+150;167;Masculino;66;168.0;201.0;13;Minas Gerais;MG;Brasil;3;Risco Moderado Alto
+151;168;Masculino;34;184.0;222.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+152;169;Masculino;53;154.0;189.0;17;Pernambuco;PE;Brasil;3;Risco Moderado Alto
+153;170;Feminino;22;115.0;132.0;8;Espírito Santo;ES;Brasil;2;Baixo Risco
+154;171;Feminino;55;168.0;204.0;13;Minas Gerais;MG;Brasil;0;Alto Risco
+155;172;Feminino;61;161.0;201.0;11;Mato Grosso;MT;Brasil;3;Risco Moderado Alto
+156;173;Feminino;57;171.0;211.0;19;Rio de Janeiro;RJ;Brasil;0;Alto Risco
+157;174;Masculino;28;129.0;156.0;12;Mato Grosso do Sul;MS;Brasil;1;Risco Moderado Baixo
+158;175;Masculino;55;150.0;179.0;21;Rio Grande do Sul;RS;Brasil;3;Risco Moderado Alto
+159;176;Feminino;20;118.0;129.0;22;Rondônia;RO;Brasil;2;Baixo Risco
+160;177;Feminino;24;154.0;185.0;22;Rondônia;RO;Brasil;3;Risco Moderado Alto
+161;178;Masculino;40;103.0;107.0;3;Amapá;AP;Brasil;2;Baixo Risco
+162;179;Masculino;43;180.0;213.0;3;Amapá;AP;Brasil;0;Alto Risco
+163;180;Feminino;33;141.0;172.0;6;Ceará;CE;Brasil;3;Risco Moderado Alto
+164;183;Masculino;53;159.0;202.0;26;Sergipe;SE;Brasil;3;Risco Moderado Alto
+165;184;Feminino;18;191.0;222.0;8;Espírito Santo;ES;Brasil;0;Alto Risco
+166;185;Feminino;33;142.0;168.0;21;Rio Grande do Sul;RS;Brasil;1;Risco Moderado Baixo
+167;186;Masculino;60;123.0;146.0;14;Pará;PA;Brasil;1;Risco Moderado Baixo
+168;187;Feminino;20;135.0;170.0;10;Maranhão;MA;Brasil;1;Risco Moderado Baixo
+169;188;Masculino;31;132.0;165.0;19;Rio de Janeiro;RJ;Brasil;1;Risco Moderado Baixo
+170;189;Feminino;42;158.0;196.0;15;Paraíba;PB;Brasil;3;Risco Moderado Alto
+171;190;Feminino;66;181.0;224.0;20;Rio Grande do Norte;RN;Brasil;0;Alto Risco
+172;191;Masculino;29;105.0;108.0;5;Bahia;BA;Brasil;2;Baixo Risco
+173;192;Feminino;53;126.0;149.0;13;Minas Gerais;MG;Brasil;1;Risco Moderado Baixo
+174;193;Feminino;62;186.0;224.0;5;Bahia;BA;Brasil;0;Alto Risco
+175;194;Feminino;35;116.0;136.0;21;Rio Grande do Sul;RS;Brasil;2;Baixo Risco
+176;195;Feminino;24;124.0;152.0;3;Amapá;AP;Brasil;1;Risco Moderado Baixo
+177;197;Masculino;32;115.0;135.0;23;Roraima;RR;Brasil;2;Baixo Risco
+178;198;Masculino;28;173.0;211.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+179;199;Masculino;70;128.0;156.0;10;Maranhão;MA;Brasil;1;Risco Moderado Baixo
+180;200;Masculino;62;103.0;115.0;16;Paraná;PR;Brasil;2;Baixo Risco
+181;201;Masculino;67;120.0;143.0;4;Amazonas;AM;Brasil;1;Risco Moderado Baixo
+182;202;Masculino;31;146.0;179.0;23;Roraima;RR;Brasil;3;Risco Moderado Alto
+183;203;Feminino;16;145.0;173.0;1;Acre;AC;Brasil;3;Risco Moderado Alto
+184;204;Feminino;21;125.0;148.0;23;Roraima;RR;Brasil;1;Risco Moderado Baixo
+185;205;Feminino;50;109.0;127.0;7;Distrito Federal;DF;Brasil;2;Baixo Risco
+186;206;Feminino;53;156.0;194.0;3;Amapá;AP;Brasil;3;Risco Moderado Alto
+187;207;Feminino;54;187.0;225.0;20;Rio Grande do Norte;RN;Brasil;0;Alto Risco
+188;208;Masculino;35;110.0;127.0;9;Goiás;GO;Brasil;2;Baixo Risco
+189;209;Masculino;60;100.0;106.0;14;Pará;PA;Brasil;2;Baixo Risco
+190;210;Feminino;41;97.0;112.0;6;Ceará;CE;Brasil;2;Baixo Risco
+191;211;Masculino;17;133.0;164.0;8;Espírito Santo;ES;Brasil;1;Risco Moderado Baixo
+192;212;Masculino;50;128.0;151.0;14;Pará;PA;Brasil;1;Risco Moderado Baixo
+193;213;Feminino;36;154.0;191.0;15;Paraíba;PB;Brasil;3;Risco Moderado Alto
+194;214;Feminino;67;100.0;110.0;6;Ceará;CE;Brasil;2;Baixo Risco
+195;215;Masculino;67;104.0;116.0;9;Goiás;GO;Brasil;2;Baixo Risco
+196;217;Feminino;62;203.0;235.0;12;Mato Grosso do Sul;MS;Brasil;0;Alto Risco
+197;218;Feminino;43;104.0;108.0;21;Rio Grande do Sul;RS;Brasil;2;Baixo Risco
+198;219;Feminino;50;119.0;141.0;19;Rio de Janeiro;RJ;Brasil;1;Risco Moderado Baixo
+199;220;Masculino;32;181.0;219.0;25;São Paulo;SP;Brasil;0;Alto Risco
+200;221;Masculino;33;180.0;219.0;20;Rio Grande do Norte;RN;Brasil;0;Alto Risco
+201;222;Feminino;38;116.0;138.0;15;Paraíba;PB;Brasil;1;Risco Moderado Baixo
+202;224;Masculino;31;102.0;116.0;6;Ceará;CE;Brasil;2;Baixo Risco
+203;225;Masculino;57;176.0;212.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+204;227;Masculino;35;184.0;220.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+205;228;Masculino;25;124.0;151.0;23;Roraima;RR;Brasil;1;Risco Moderado Baixo
+206;229;Masculino;35;110.0;119.0;10;Maranhão;MA;Brasil;2;Baixo Risco
+207;230;Feminino;56;180.0;212.0;26;Sergipe;SE;Brasil;0;Alto Risco
+208;231;Masculino;66;103.0;111.0;9;Goiás;GO;Brasil;2;Baixo Risco
+209;232;Masculino;35;117.0;142.0;27;Tocantins;TO;Brasil;1;Risco Moderado Baixo
+210;233;Masculino;20;120.0;138.0;25;São Paulo;SP;Brasil;1;Risco Moderado Baixo
+211;235;Masculino;46;133.0;158.0;16;Paraná;PR;Brasil;1;Risco Moderado Baixo
+212;236;Masculino;25;201.0;228.0;13;Minas Gerais;MG;Brasil;0;Alto Risco
+213;237;Masculino;23;117.0;134.0;12;Mato Grosso do Sul;MS;Brasil;2;Baixo Risco
+214;238;Feminino;34;146.0;181.0;2;Alagoas;AL;Brasil;3;Risco Moderado Alto
+215;239;Feminino;34;195.0;231.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+216;241;Feminino;32;108.0;121.0;27;Tocantins;TO;Brasil;2;Baixo Risco
+217;242;Masculino;67;191.0;222.0;8;Espírito Santo;ES;Brasil;0;Alto Risco
+218;243;Feminino;34;100.0;102.0;15;Paraíba;PB;Brasil;2;Baixo Risco
+219;244;Feminino;29;158.0;195.0;27;Tocantins;TO;Brasil;3;Risco Moderado Alto
+220;245;Feminino;59;127.0;156.0;13;Minas Gerais;MG;Brasil;1;Risco Moderado Baixo
+221;246;Feminino;57;181.0;214.0;2;Alagoas;AL;Brasil;0;Alto Risco
+222;247;Feminino;41;113.0;132.0;14;Pará;PA;Brasil;2;Baixo Risco
+223;248;Masculino;28;171.0;204.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+224;249;Feminino;39;153.0;190.0;6;Ceará;CE;Brasil;3;Risco Moderado Alto
+225;250;Feminino;46;137.0;167.0;6;Ceará;CE;Brasil;1;Risco Moderado Baixo
+226;251;Feminino;19;154.0;195.0;12;Mato Grosso do Sul;MS;Brasil;3;Risco Moderado Alto
+227;252;Feminino;46;112.0;127.0;12;Mato Grosso do Sul;MS;Brasil;2;Baixo Risco
+228;253;Masculino;60;201.0;235.0;15;Paraíba;PB;Brasil;0;Alto Risco
+229;255;Masculino;58;100.0;110.0;5;Bahia;BA;Brasil;2;Baixo Risco
+230;256;Feminino;40;185.0;221.0;3;Amapá;AP;Brasil;0;Alto Risco
+231;257;Feminino;26;111.0;128.0;15;Paraíba;PB;Brasil;2;Baixo Risco
+232;258;Feminino;42;191.0;226.0;3;Amapá;AP;Brasil;0;Alto Risco
+233;259;Masculino;50;176.0;208.0;25;São Paulo;SP;Brasil;0;Alto Risco
+234;260;Masculino;63;150.0;191.0;27;Tocantins;TO;Brasil;3;Risco Moderado Alto
+235;261;Masculino;34;171.0;205.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+236;262;Masculino;47;140.0;173.0;8;Espírito Santo;ES;Brasil;3;Risco Moderado Alto
+237;263;Masculino;39;153.0;191.0;20;Rio Grande do Norte;RN;Brasil;3;Risco Moderado Alto
+238;265;Feminino;21;180.0;220.0;3;Amapá;AP;Brasil;0;Alto Risco
+239;266;Masculino;32;107.0;126.0;5;Bahia;BA;Brasil;2;Baixo Risco
+240;267;Masculino;41;197.0;232.0;3;Amapá;AP;Brasil;0;Alto Risco
+241;268;Masculino;30;101.0;108.0;2;Alagoas;AL;Brasil;2;Baixo Risco
+242;269;Feminino;27;132.0;159.0;7;Distrito Federal;DF;Brasil;1;Risco Moderado Baixo
+243;270;Masculino;60;168.0;211.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+244;271;Masculino;55;200.0;232.0;4;Amazonas;AM;Brasil;0;Alto Risco
+245;272;Masculino;18;150.0;182.0;21;Rio Grande do Sul;RS;Brasil;3;Risco Moderado Alto
+246;273;Masculino;54;119.0;145.0;7;Distrito Federal;DF;Brasil;1;Risco Moderado Baixo
+247;274;Feminino;58;197.0;224.0;26;Sergipe;SE;Brasil;0;Alto Risco
+248;276;Feminino;19;134.0;160.0;21;Rio Grande do Sul;RS;Brasil;1;Risco Moderado Baixo
+249;277;Masculino;50;185.0;219.0;26;Sergipe;SE;Brasil;0;Alto Risco
+250;278;Feminino;32;135.0;170.0;9;Goiás;GO;Brasil;1;Risco Moderado Baixo
+251;279;Feminino;64;132.0;161.0;27;Tocantins;TO;Brasil;1;Risco Moderado Baixo
+252;280;Feminino;66;109.0;122.0;3;Amapá;AP;Brasil;2;Baixo Risco
+253;281;Feminino;39;116.0;141.0;13;Minas Gerais;MG;Brasil;1;Risco Moderado Baixo
+254;282;Masculino;37;170.0;204.0;20;Rio Grande do Norte;RN;Brasil;0;Alto Risco
+255;283;Masculino;62;187.0;226.0;22;Rondônia;RO;Brasil;0;Alto Risco
+256;284;Masculino;47;154.0;187.0;8;Espírito Santo;ES;Brasil;3;Risco Moderado Alto
+257;285;Feminino;50;111.0;129.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+258;286;Feminino;52;169.0;199.0;14;Pará;PA;Brasil;3;Risco Moderado Alto
+259;287;Feminino;25;161.0;199.0;9;Goiás;GO;Brasil;3;Risco Moderado Alto
+260;288;Feminino;38;174.0;214.0;1;Acre;AC;Brasil;0;Alto Risco
+261;290;Masculino;20;148.0;176.0;9;Goiás;GO;Brasil;3;Risco Moderado Alto
+262;291;Feminino;28;117.0;129.0;13;Minas Gerais;MG;Brasil;2;Baixo Risco
+263;292;Feminino;64;154.0;187.0;17;Pernambuco;PE;Brasil;3;Risco Moderado Alto
+264;293;Masculino;20;104.0;109.0;13;Minas Gerais;MG;Brasil;2;Baixo Risco
+265;294;Masculino;33;183.0;212.0;6;Ceará;CE;Brasil;0;Alto Risco
+266;295;Feminino;28;142.0;170.0;6;Ceará;CE;Brasil;3;Risco Moderado Alto
+267;296;Masculino;45;155.0;191.0;12;Mato Grosso do Sul;MS;Brasil;3;Risco Moderado Alto
+268;297;Masculino;66;105.0;116.0;17;Pernambuco;PE;Brasil;2;Baixo Risco
+269;298;Masculino;55;160.0;202.0;10;Maranhão;MA;Brasil;3;Risco Moderado Alto
+270;299;Feminino;41;191.0;226.0;5;Bahia;BA;Brasil;0;Alto Risco
+271;300;Feminino;66;140.0;166.0;10;Maranhão;MA;Brasil;1;Risco Moderado Baixo
+272;301;Masculino;64;123.0;151.0;12;Mato Grosso do Sul;MS;Brasil;1;Risco Moderado Baixo
+273;303;Masculino;22;132.0;166.0;5;Bahia;BA;Brasil;1;Risco Moderado Baixo
+274;304;Feminino;22;158.0;193.0;19;Rio de Janeiro;RJ;Brasil;3;Risco Moderado Alto
+275;305;Feminino;49;182.0;218.0;5;Bahia;BA;Brasil;0;Alto Risco
+276;306;Masculino;67;104.0;109.0;3;Amapá;AP;Brasil;2;Baixo Risco
+277;307;Feminino;22;126.0;152.0;12;Mato Grosso do Sul;MS;Brasil;1;Risco Moderado Baixo
+278;308;Feminino;16;188.0;220.0;4;Amazonas;AM;Brasil;0;Alto Risco
+279;309;Feminino;31;118.0;133.0;6;Ceará;CE;Brasil;2;Baixo Risco
+280;310;Feminino;45;127.0;152.0;23;Roraima;RR;Brasil;1;Risco Moderado Baixo
+281;312;Masculino;70;118.0;131.0;19;Rio de Janeiro;RJ;Brasil;2;Baixo Risco
+282;313;Masculino;33;169.0;204.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+283;314;Masculino;39;128.0;153.0;19;Rio de Janeiro;RJ;Brasil;1;Risco Moderado Baixo
+284;315;Masculino;64;106.0;114.0;16;Paraná;PR;Brasil;2;Baixo Risco
+285;316;Masculino;41;119.0;144.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+286;317;Masculino;66;147.0;172.0;9;Goiás;GO;Brasil;3;Risco Moderado Alto
+287;318;Feminino;47;141.0;176.0;22;Rondônia;RO;Brasil;3;Risco Moderado Alto
+288;319;Feminino;25;125.0;150.0;22;Rondônia;RO;Brasil;1;Risco Moderado Baixo
+289;320;Feminino;48;109.0;129.0;10;Maranhão;MA;Brasil;2;Baixo Risco
+290;321;Feminino;44;158.0;190.0;16;Paraná;PR;Brasil;3;Risco Moderado Alto
+291;322;Feminino;41;190.0;226.0;4;Amazonas;AM;Brasil;0;Alto Risco
+292;323;Masculino;60;110.0;128.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+293;324;Masculino;53;99.0;106.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+294;325;Feminino;70;98.0;107.0;10;Maranhão;MA;Brasil;2;Baixo Risco
+295;326;Masculino;47;134.0;159.0;9;Goiás;GO;Brasil;1;Risco Moderado Baixo
+296;327;Masculino;28;129.0;157.0;4;Amazonas;AM;Brasil;1;Risco Moderado Baixo
+297;328;Feminino;18;154.0;192.0;13;Minas Gerais;MG;Brasil;3;Risco Moderado Alto
+298;329;Feminino;30;100.0;110.0;27;Tocantins;TO;Brasil;2;Baixo Risco
+299;330;Masculino;33;107.0;115.0;17;Pernambuco;PE;Brasil;2;Baixo Risco
+300;331;Masculino;17;149.0;183.0;15;Paraíba;PB;Brasil;3;Risco Moderado Alto
+301;332;Feminino;64;203.0;233.0;17;Pernambuco;PE;Brasil;0;Alto Risco
+302;333;Feminino;27;101.0;112.0;19;Rio de Janeiro;RJ;Brasil;2;Baixo Risco
+303;334;Feminino;28;119.0;146.0;9;Goiás;GO;Brasil;1;Risco Moderado Baixo
+304;335;Masculino;68;182.0;222.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+305;336;Masculino;44;181.0;216.0;12;Mato Grosso do Sul;MS;Brasil;0;Alto Risco
+306;337;Feminino;70;115.0;134.0;6;Ceará;CE;Brasil;2;Baixo Risco
+307;338;Feminino;63;145.0;174.0;17;Pernambuco;PE;Brasil;3;Risco Moderado Alto
+308;339;Masculino;43;102.0;114.0;25;São Paulo;SP;Brasil;2;Baixo Risco
+309;340;Masculino;54;176.0;211.0;14;Pará;PA;Brasil;0;Alto Risco
+310;341;Masculino;68;134.0;167.0;15;Paraíba;PB;Brasil;1;Risco Moderado Baixo
+311;342;Masculino;68;183.0;214.0;23;Roraima;RR;Brasil;0;Alto Risco
+312;343;Masculino;47;123.0;145.0;20;Rio Grande do Norte;RN;Brasil;1;Risco Moderado Baixo
+313;344;Masculino;31;108.0;120.0;27;Tocantins;TO;Brasil;2;Baixo Risco
+314;345;Feminino;21;177.0;217.0;2;Alagoas;AL;Brasil;0;Alto Risco
+315;346;Masculino;39;104.0;113.0;14;Pará;PA;Brasil;2;Baixo Risco
+316;347;Masculino;46;117.0;141.0;11;Mato Grosso;MT;Brasil;1;Risco Moderado Baixo
+317;348;Masculino;61;117.0;140.0;19;Rio de Janeiro;RJ;Brasil;1;Risco Moderado Baixo
+318;349;Feminino;52;145.0;171.0;9;Goiás;GO;Brasil;3;Risco Moderado Alto
+319;350;Masculino;28;134.0;163.0;13;Minas Gerais;MG;Brasil;1;Risco Moderado Baixo
+320;351;Masculino;61;199.0;232.0;23;Roraima;RR;Brasil;0;Alto Risco
+321;352;Masculino;33;115.0;131.0;23;Roraima;RR;Brasil;2;Baixo Risco
+322;353;Feminino;25;149.0;184.0;8;Espírito Santo;ES;Brasil;3;Risco Moderado Alto
+323;354;Feminino;63;192.0;225.0;10;Maranhão;MA;Brasil;0;Alto Risco
+324;355;Masculino;29;188.0;223.0;19;Rio de Janeiro;RJ;Brasil;0;Alto Risco
+325;356;Feminino;23;107.0;121.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+326;357;Masculino;67;190.0;223.0;15;Paraíba;PB;Brasil;0;Alto Risco
+327;358;Feminino;51;98.0;105.0;16;Paraná;PR;Brasil;2;Baixo Risco
+328;360;Feminino;34;128.0;160.0;1;Acre;AC;Brasil;1;Risco Moderado Baixo
+329;361;Feminino;34;180.0;218.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+330;363;Masculino;28;172.0;211.0;13;Minas Gerais;MG;Brasil;0;Alto Risco
+331;364;Feminino;62;157.0;194.0;13;Minas Gerais;MG;Brasil;3;Risco Moderado Alto
+332;365;Feminino;21;137.0;169.0;13;Minas Gerais;MG;Brasil;1;Risco Moderado Baixo
+333;366;Feminino;57;158.0;189.0;26;Sergipe;SE;Brasil;3;Risco Moderado Alto
+334;367;Feminino;28;110.0;128.0;22;Rondônia;RO;Brasil;2;Baixo Risco
+335;368;Masculino;38;203.0;228.0;19;Rio de Janeiro;RJ;Brasil;0;Alto Risco
+336;369;Feminino;70;145.0;169.0;16;Paraná;PR;Brasil;3;Risco Moderado Alto
+337;370;Masculino;42;96.0;108.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+338;371;Feminino;56;186.0;219.0;4;Amazonas;AM;Brasil;0;Alto Risco
+339;372;Feminino;33;110.0;124.0;7;Distrito Federal;DF;Brasil;2;Baixo Risco
+340;373;Feminino;38;194.0;224.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+341;374;Masculino;18;177.0;214.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+342;376;Masculino;50;172.0;205.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+343;377;Masculino;60;140.0;167.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+344;378;Masculino;53;154.0;190.0;2;Alagoas;AL;Brasil;3;Risco Moderado Alto
+345;379;Masculino;19;113.0;128.0;5;Bahia;BA;Brasil;2;Baixo Risco
+346;380;Feminino;44;179.0;217.0;10;Maranhão;MA;Brasil;0;Alto Risco
+347;381;Masculino;51;111.0;126.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+348;382;Masculino;33;196.0;228.0;15;Paraíba;PB;Brasil;0;Alto Risco
+349;383;Masculino;32;101.0;105.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+350;385;Masculino;66;171.0;211.0;3;Amapá;AP;Brasil;0;Alto Risco
+351;386;Masculino;60;199.0;227.0;27;Tocantins;TO;Brasil;0;Alto Risco
+352;387;Masculino;17;151.0;178.0;3;Amapá;AP;Brasil;3;Risco Moderado Alto
+353;388;Masculino;39;121.0;146.0;11;Mato Grosso;MT;Brasil;1;Risco Moderado Baixo
+354;389;Feminino;27;196.0;227.0;16;Paraná;PR;Brasil;0;Alto Risco
+355;390;Masculino;48;174.0;208.0;19;Rio de Janeiro;RJ;Brasil;0;Alto Risco
+356;392;Masculino;43;184.0;225.0;6;Ceará;CE;Brasil;0;Alto Risco
+357;393;Feminino;54;137.0;167.0;6;Ceará;CE;Brasil;1;Risco Moderado Baixo
+358;394;Feminino;27;129.0;162.0;5;Bahia;BA;Brasil;1;Risco Moderado Baixo
+359;396;Feminino;31;116.0;144.0;5;Bahia;BA;Brasil;1;Risco Moderado Baixo
+360;397;Masculino;44;168.0;199.0;19;Rio de Janeiro;RJ;Brasil;3;Risco Moderado Alto
+361;398;Masculino;54;184.0;226.0;2;Alagoas;AL;Brasil;0;Alto Risco
+362;399;Masculino;68;151.0;183.0;4;Amazonas;AM;Brasil;3;Risco Moderado Alto
+363;400;Feminino;39;114.0;136.0;16;Paraná;PR;Brasil;2;Baixo Risco
+364;401;Feminino;43;167.0;199.0;2;Alagoas;AL;Brasil;3;Risco Moderado Alto
+365;403;Feminino;45;175.0;215.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+366;404;Masculino;38;127.0;155.0;9;Goiás;GO;Brasil;1;Risco Moderado Baixo
+367;405;Masculino;29;146.0;179.0;14;Pará;PA;Brasil;3;Risco Moderado Alto
+368;406;Feminino;58;118.0;133.0;9;Goiás;GO;Brasil;2;Baixo Risco
+369;407;Feminino;49;151.0;186.0;4;Amazonas;AM;Brasil;3;Risco Moderado Alto
+370;409;Masculino;19;180.0;219.0;21;Rio Grande do Sul;RS;Brasil;0;Alto Risco
+371;410;Feminino;37;140.0;173.0;9;Goiás;GO;Brasil;3;Risco Moderado Alto
+372;411;Masculino;24;155.0;185.0;1;Acre;AC;Brasil;3;Risco Moderado Alto
+373;412;Masculino;44;106.0;118.0;13;Minas Gerais;MG;Brasil;2;Baixo Risco
+374;413;Masculino;19;160.0;199.0;22;Rondônia;RO;Brasil;3;Risco Moderado Alto
+375;414;Feminino;33;192.0;226.0;16;Paraná;PR;Brasil;0;Alto Risco
+376;415;Feminino;42;138.0;169.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+377;416;Masculino;56;122.0;144.0;1;Acre;AC;Brasil;1;Risco Moderado Baixo
+378;417;Feminino;36;135.0;166.0;13;Minas Gerais;MG;Brasil;1;Risco Moderado Baixo
+379;418;Masculino;39;132.0;166.0;22;Rondônia;RO;Brasil;1;Risco Moderado Baixo
+380;419;Feminino;25;158.0;198.0;20;Rio Grande do Norte;RN;Brasil;3;Risco Moderado Alto
+381;420;Feminino;39;184.0;222.0;1;Acre;AC;Brasil;0;Alto Risco
+382;421;Masculino;68;101.0;110.0;16;Paraná;PR;Brasil;2;Baixo Risco
+383;422;Feminino;47;126.0;154.0;2;Alagoas;AL;Brasil;1;Risco Moderado Baixo
+384;423;Feminino;48;188.0;226.0;13;Minas Gerais;MG;Brasil;0;Alto Risco
+385;424;Feminino;25;118.0;135.0;10;Maranhão;MA;Brasil;2;Baixo Risco
+386;425;Feminino;57;127.0;151.0;20;Rio Grande do Norte;RN;Brasil;1;Risco Moderado Baixo
+387;427;Masculino;59;117.0;133.0;7;Distrito Federal;DF;Brasil;2;Baixo Risco
+388;428;Masculino;55;172.0;205.0;27;Tocantins;TO;Brasil;0;Alto Risco
+389;430;Masculino;38;104.0;116.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+390;431;Masculino;62;121.0;145.0;27;Tocantins;TO;Brasil;1;Risco Moderado Baixo
+391;432;Masculino;42;148.0;174.0;6;Ceará;CE;Brasil;3;Risco Moderado Alto
+392;433;Feminino;42;141.0;168.0;8;Espírito Santo;ES;Brasil;1;Risco Moderado Baixo
+393;434;Feminino;35;128.0;156.0;14;Pará;PA;Brasil;1;Risco Moderado Baixo
+394;435;Feminino;63;113.0;124.0;4;Amazonas;AM;Brasil;2;Baixo Risco
+395;436;Feminino;34;155.0;196.0;27;Tocantins;TO;Brasil;3;Risco Moderado Alto
+396;438;Masculino;53;108.0;122.0;14;Pará;PA;Brasil;2;Baixo Risco
+397;439;Masculino;26;98.0;106.0;2;Alagoas;AL;Brasil;2;Baixo Risco
+398;440;Feminino;61;100.0;110.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+399;441;Masculino;54;134.0;158.0;14;Pará;PA;Brasil;1;Risco Moderado Baixo
+400;442;Masculino;59;125.0;154.0;12;Mato Grosso do Sul;MS;Brasil;1;Risco Moderado Baixo
+401;443;Feminino;55;151.0;190.0;23;Roraima;RR;Brasil;3;Risco Moderado Alto
+402;444;Feminino;58;100.0;110.0;7;Distrito Federal;DF;Brasil;2;Baixo Risco
+403;445;Masculino;64;107.0;120.0;1;Acre;AC;Brasil;2;Baixo Risco
+404;446;Masculino;31;147.0;180.0;20;Rio Grande do Norte;RN;Brasil;3;Risco Moderado Alto
+405;447;Feminino;34;200.0;232.0;23;Roraima;RR;Brasil;0;Alto Risco
+406;449;Feminino;50;120.0;142.0;23;Roraima;RR;Brasil;1;Risco Moderado Baixo
+407;450;Masculino;45;181.0;222.0;16;Paraná;PR;Brasil;0;Alto Risco
+408;451;Masculino;19;182.0;218.0;12;Mato Grosso do Sul;MS;Brasil;0;Alto Risco
+409;452;Feminino;61;117.0;138.0;19;Rio de Janeiro;RJ;Brasil;1;Risco Moderado Baixo
+410;453;Feminino;25;145.0;176.0;12;Mato Grosso do Sul;MS;Brasil;3;Risco Moderado Alto
+411;454;Masculino;70;106.0;115.0;19;Rio de Janeiro;RJ;Brasil;2;Baixo Risco
+412;455;Masculino;43;179.0;211.0;10;Maranhão;MA;Brasil;0;Alto Risco
+413;456;Masculino;29;134.0;168.0;12;Mato Grosso do Sul;MS;Brasil;1;Risco Moderado Baixo
+414;457;Masculino;43;180.0;216.0;14;Pará;PA;Brasil;0;Alto Risco
+415;458;Masculino;58;126.0;147.0;3;Amapá;AP;Brasil;1;Risco Moderado Baixo
+416;459;Masculino;41;110.0;124.0;25;São Paulo;SP;Brasil;2;Baixo Risco
+417;460;Feminino;64;180.0;215.0;17;Pernambuco;PE;Brasil;0;Alto Risco
+418;461;Masculino;43;103.0;117.0;13;Minas Gerais;MG;Brasil;2;Baixo Risco
+419;462;Masculino;53;116.0;139.0;13;Minas Gerais;MG;Brasil;1;Risco Moderado Baixo
+420;463;Masculino;35;119.0;138.0;10;Maranhão;MA;Brasil;1;Risco Moderado Baixo
+421;464;Feminino;32;144.0;171.0;12;Mato Grosso do Sul;MS;Brasil;3;Risco Moderado Alto
+422;465;Masculino;20;133.0;158.0;9;Goiás;GO;Brasil;1;Risco Moderado Baixo
+423;467;Masculino;20;115.0;139.0;2;Alagoas;AL;Brasil;1;Risco Moderado Baixo
+424;468;Feminino;65;150.0;178.0;27;Tocantins;TO;Brasil;3;Risco Moderado Alto
+425;469;Feminino;36;192.0;224.0;8;Espírito Santo;ES;Brasil;0;Alto Risco
+426;470;Masculino;36;188.0;224.0;3;Amapá;AP;Brasil;0;Alto Risco
+427;471;Feminino;36;109.0;116.0;20;Rio Grande do Norte;RN;Brasil;2;Baixo Risco
+428;472;Masculino;32;189.0;223.0;16;Paraná;PR;Brasil;0;Alto Risco
+429;473;Feminino;36;101.0;109.0;11;Mato Grosso;MT;Brasil;2;Baixo Risco
+430;474;Feminino;46;159.0;193.0;15;Paraíba;PB;Brasil;3;Risco Moderado Alto
+431;475;Feminino;63;128.0;155.0;17;Pernambuco;PE;Brasil;1;Risco Moderado Baixo
+432;476;Feminino;45;182.0;221.0;26;Sergipe;SE;Brasil;0;Alto Risco
+433;477;Feminino;44;111.0;130.0;2;Alagoas;AL;Brasil;2;Baixo Risco
+434;478;Masculino;26;171.0;212.0;20;Rio Grande do Norte;RN;Brasil;0;Alto Risco
+435;479;Feminino;35;154.0;190.0;4;Amazonas;AM;Brasil;3;Risco Moderado Alto
+436;480;Feminino;46;134.0;169.0;8;Espírito Santo;ES;Brasil;1;Risco Moderado Baixo
+437;481;Feminino;26;157.0;191.0;14;Pará;PA;Brasil;3;Risco Moderado Alto
+438;483;Masculino;29;203.0;234.0;17;Pernambuco;PE;Brasil;0;Alto Risco
+439;484;Feminino;56;142.0;175.0;10;Maranhão;MA;Brasil;3;Risco Moderado Alto
+440;485;Masculino;58;97.0;108.0;8;Espírito Santo;ES;Brasil;2;Baixo Risco
+441;486;Feminino;53;187.0;220.0;22;Rondônia;RO;Brasil;0;Alto Risco
+442;487;Feminino;41;111.0;126.0;5;Bahia;BA;Brasil;2;Baixo Risco
+443;488;Feminino;25;194.0;227.0;14;Pará;PA;Brasil;0;Alto Risco
+444;489;Masculino;31;176.0;216.0;2;Alagoas;AL;Brasil;0;Alto Risco
+445;490;Masculino;17;153.0;188.0;25;São Paulo;SP;Brasil;3;Risco Moderado Alto
+446;491;Masculino;62;171.0;205.0;16;Paraná;PR;Brasil;0;Alto Risco
+447;492;Masculino;64;142.0;172.0;12;Mato Grosso do Sul;MS;Brasil;3;Risco Moderado Alto
+448;493;Masculino;70;153.0;192.0;12;Mato Grosso do Sul;MS;Brasil;3;Risco Moderado Alto
+449;494;Masculino;21;113.0;129.0;9;Goiás;GO;Brasil;2;Baixo Risco
+450;496;Masculino;66;108.0;127.0;9;Goiás;GO;Brasil;2;Baixo Risco
+451;497;Masculino;67;200.0;228.0;7;Distrito Federal;DF;Brasil;0;Alto Risco
+452;498;Masculino;26;99.0;105.0;13;Minas Gerais;MG;Brasil;2;Baixo Risco
+453;499;Feminino;41;131.0;159.0;21;Rio Grande do Sul;RS;Brasil;1;Risco Moderado Baixo
+454;500;Masculino;55;171.0;205.0;6;Ceará;CE;Brasil;0;Alto Risco
+455;502;Masculino;41;152.0;178.0;12;Mato Grosso do Sul;MS;Brasil;3;Risco Moderado Alto
+456;503;Masculino;58;119.0;139.0;6;Ceará;CE;Brasil;1;Risco Moderado Baixo
+457;504;Feminino;16;196.0;232.0;9;Goiás;GO;Brasil;0;Alto Risco
+458;505;Masculino;59;173.0;212.0;13;Minas Gerais;MG;Brasil;0;Alto Risco
+459;506;Feminino;50;132.0;162.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+460;507;Masculino;34;185.0;226.0;4;Amazonas;AM;Brasil;0;Alto Risco
+461;508;Feminino;40;138.0;171.0;21;Rio Grande do Sul;RS;Brasil;1;Risco Moderado Baixo
+462;509;Feminino;45;132.0;159.0;20;Rio Grande do Norte;RN;Brasil;1;Risco Moderado Baixo
+463;510;Feminino;48;110.0;120.0;19;Rio de Janeiro;RJ;Brasil;2;Baixo Risco
+464;512;Masculino;29;167.0;200.0;26;Sergipe;SE;Brasil;3;Risco Moderado Alto
+465;513;Masculino;28;188.0;221.0;22;Rondônia;RO;Brasil;0;Alto Risco
+466;514;Masculino;42;151.0;184.0;11;Mato Grosso;MT;Brasil;3;Risco Moderado Alto
+467;515;Feminino;65;112.0;134.0;9;Goiás;GO;Brasil;2;Baixo Risco
+468;516;Feminino;47;166.0;200.0;19;Rio de Janeiro;RJ;Brasil;3;Risco Moderado Alto
+469;517;Feminino;46;158.0;201.0;3;Amapá;AP;Brasil;3;Risco Moderado Alto
+470;518;Feminino;19;172.0;210.0;11;Mato Grosso;MT;Brasil;0;Alto Risco
+471;519;Masculino;26;127.0;159.0;13;Minas Gerais;MG;Brasil;1;Risco Moderado Baixo
+472;520;Masculino;50;150.0;178.0;13;Minas Gerais;MG;Brasil;3;Risco Moderado Alto
+473;521;Feminino;45;115.0;137.0;10;Maranhão;MA;Brasil;2;Baixo Risco
+474;523;Masculino;26;103.0;110.0;19;Rio de Janeiro;RJ;Brasil;2;Baixo Risco
+475;525;Feminino;39;141.0;170.0;25;São Paulo;SP;Brasil;3;Risco Moderado Alto
+476;526;Masculino;30;152.0;193.0;11;Mato Grosso;MT;Brasil;3;Risco Moderado Alto
+477;527;Masculino;38;105.0;113.0;7;Distrito Federal;DF;Brasil;2;Baixo Risco
+478;528;Masculino;20;162.0;196.0;7;Distrito Federal;DF;Brasil;3;Risco Moderado Alto
+479;529;Feminino;23;190.0;222.0;25;São Paulo;SP;Brasil;0;Alto Risco
+480;530;Feminino;63;141.0;174.0;5;Bahia;BA;Brasil;3;Risco Moderado Alto
+481;531;Masculino;43;122.0;143.0;26;Sergipe;SE;Brasil;1;Risco Moderado Baixo
+482;532;Feminino;51;136.0;169.0;27;Tocantins;TO;Brasil;1;Risco Moderado Baixo
+483;533;Masculino;61;131.0;165.0;5;Bahia;BA;Brasil;1;Risco Moderado Baixo
+484;534;Feminino;51;157.0;194.0;6;Ceará;CE;Brasil;3;Risco Moderado Alto
+485;535;Feminino;32;181.0;217.0;20;Rio Grande do Norte;RN;Brasil;0;Alto Risco
+486;536;Masculino;37;103.0;113.0;16;Paraná;PR;Brasil;2;Baixo Risco
+487;537;Feminino;32;127.0;150.0;2;Alagoas;AL;Brasil;1;Risco Moderado Baixo
+488;538;Feminino;34;189.0;223.0;14;Pará;PA;Brasil;0;Alto Risco
+489;539;Feminino;31;114.0;133.0;2;Alagoas;AL;Brasil;2;Baixo Risco
+490;540;Feminino;35;125.0;149.0;23;Roraima;RR;Brasil;1;Risco Moderado Baixo
+491;541;Feminino;51;123.0;149.0;2;Alagoas;AL;Brasil;1;Risco Moderado Baixo
+492;542;Masculino;34;116.0;130.0;10;Maranhão;MA;Brasil;2;Baixo Risco
+493;543;Masculino;20;172.0;207.0;22;Rondônia;RO;Brasil;0;Alto Risco
+494;544;Masculino;66;129.0;157.0;1;Acre;AC;Brasil;1;Risco Moderado Baixo
+495;545;Masculino;36;107.0;115.0;6;Ceará;CE;Brasil;2;Baixo Risco
+496;546;Masculino;57;117.0;147.0;20;Rio Grande do Norte;RN;Brasil;1;Risco Moderado Baixo
+497;547;Masculino;61;148.0;176.0;8;Espírito Santo;ES;Brasil;3;Risco Moderado Alto
