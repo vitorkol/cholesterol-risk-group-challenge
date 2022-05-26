@@ -1,2 +1,2 @@
 # cholesterol-risk-group-challenge
-Identificar o perfil de pessoas que se encaixam nos grupos de risco e assim realizar medidas preventivas e palestras de cuidados médicos.
+identify the profile of people who fit into risk groups and thus carry out preventive measures and medical care lectures.
