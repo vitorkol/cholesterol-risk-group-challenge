@@ -13,7 +13,7 @@ Através da análise dos dados, os analistas da operadora de seguro de saúde id
 4. Baixo risco
 
 
-Ao realizar este desafio demonstro que possuo habilidades teorica e técnicas para execução de:
+Ao realizar este desafio demonstro que possuo habilidades técnicas e práticas para execução de:
 - Coleta de dados;
 - Manipulação e visualização de dados;
 - Tratamento de dados;
@@ -21,7 +21,7 @@ Ao realizar este desafio demonstro que possuo habilidades teorica e técnicas pa
 - Análise de dados gerados;
 
 # Motivação
-Esse projeto foi desenvolvido como Desafio prático de avaliação final do primeiro módulo de Fundamentos de Biga Data, utilizado no [Bootcamp DiversiData Tech PAN](https://www.igti.com.br/bootcamp/diversidata-tech-pan), IGIT Data Science.
+Esse projeto foi desenvolvido como Desafio Prático de Avaliação Final do Primeiro Módulo de Fundamentos de Biga Data, utilizado no [Bootcamp DiversiData Tech PAN](https://www.igti.com.br/bootcamp/diversidata-tech-pan), IGIT Data Science.
 
 # Tecnologias e bibliotecas
 Linguagem de programação:</br>
@@ -29,8 +29,14 @@ Linguagem de programação:</br>
 
 Bibliotecas utilizadas:
 
-1. [mlxtend](https://pypi.org/project/mlxtend/) - Utilizada para criação dos itens mais frequentes;
-2. [pandas](https://pandas.pydata.org/docs/index.html) - Utilizada para realizar manipulação e análise de dados em dataframes e series;
+1. [pandas](https://pandas.pydata.org/docs/index.html) - Utilizada para realizar manipulação e análise de dados em dataframes e series;
+2. [plotly-express](https://pypi.org/project/plotly-express/) - Utilizada para criação de gráficos dinâmicos;
+3. [plotly-graph_objects](https://plotly.com/python/graph-objects/) - Família plotly;
+4. [plotly-offline](https://plotly.com/python/renderers/) - Utilizada para renderizar imagens;
+5. [numpy](https://pypi.org/project/numpy/) - Utilizada para trabalhar com objetos de matriz multi-dimensional;
+6. [seaborn](https://pypi.org/project/seaborn/) - Utilizada para fazer gráficos estatísticos;
+7. [matplotlib](https://pypi.org/project/matplotlib/) - Utilizada para criar visualizações estáticas, animadas e interativas;
+8. [sklearn](https://pypi.org/project/sklearn/) - Utilizado para aprendizado de máquina e mineração de dados.
 
 IDE:
 
